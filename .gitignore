@@ -26,7 +26,6 @@ Makefile
 # IDE specific
 .idea/
 .vscode/
-.antigravity/cache/
 
 # OS artifacts
 Thumbs.db
