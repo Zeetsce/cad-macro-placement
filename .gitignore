@@ -1,0 +1,33 @@
+# CMake build outputs
+build/
+bin/
+lib/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Visual Studio & Windows
+.vs/
+*.vcxproj*
+*.sln
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+
+# IDE specific
+.idea/
+.vscode/
+.antigravity/cache/
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
