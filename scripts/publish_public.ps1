@@ -5,8 +5,8 @@
 .DESCRIPTION
     1. Проверяет чистоту рабочей директории git.
     2. Создает временную изолированную ветку из текущей ветки main.
-    3. Удаляет служебные файлы агента и внутренние спецификации:
-       AGENTS.md, TASKtoWORK.md, SPEC_DATA_FORMATS.md, SPEC_ALGORITHMS.md, SPEC_VERIFIER.md, docs/AI_CONTRIBUTIONS.md.
+    3. Удаляет служебные файлы агента, внутренние спецификации и скрипты автоматизации:
+       AGENTS.md, TASKtoWORK.md, SPEC_DATA_FORMATS.md, SPEC_ALGORITHMS.md, SPEC_VERIFIER.md, docs/AI_CONTRIBUTIONS.md, scripts/.
     4. Создает релизный коммит.
     5. Выполняет push в репозиторий public в ветку main.
     6. Возвращается в ветку main и удаляет временную ветку.
@@ -42,22 +42,21 @@ Write-Host "Создание временной ветки: $tempBranch..." -For
 git checkout -b $tempBranch
 
 try {
-    # 3. Список исключаемых внутренних артефактов ИИ и спецификаций
+    # 3. Список исключаемых внутренних артефактов ИИ, спецификаций и скриптов
     $artifactsToRemove = @(
         "AGENTS.md",
         "TASKtoWORK.md",
         "SPEC_DATA_FORMATS.md",
         "SPEC_ALGORITHMS.md",
         "SPEC_VERIFIER.md",
-        "docs/AI_CONTRIBUTIONS.md"
+        "docs/AI_CONTRIBUTIONS.md",
+        "scripts"
     )
 
-    $removedAny = $false
-    foreach ($file in $artifactsToRemove) {
-        if (Test-Path $file) {
-            Write-Host "Исключение из публичного релиза: $file" -ForegroundColor Yellow
-            git rm -f $file
-            $removedAny = $true
+    foreach ($target in $artifactsToRemove) {
+        if (Test-Path $target) {
+            Write-Host "Исключение из публичного релиза: $target" -ForegroundColor Yellow
+            git rm -rf --ignore-unmatch $target
         }
     }
 
