@@ -1,0 +1,1708 @@
+{
+  "design": {
+    "chip_width": 2000.0,
+    "chip_height": 2000.0,
+    "grid_size": 10.0,
+    "rotation_allowed": true
+  },
+  "blocks": [
+    {
+      "id": "Cell_0",
+      "width": 40.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.92
+    },
+    {
+      "id": "Cell_1",
+      "width": 130.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 1.07
+    },
+    {
+      "id": "Cell_2",
+      "width": 110.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 0.83
+    },
+    {
+      "id": "Cell_3",
+      "width": 100.0,
+      "height": 100.0,
+      "rotation_allowed": true,
+      "weight": 1.16
+    },
+    {
+      "id": "Cell_4",
+      "width": 40.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.11
+    },
+    {
+      "id": "Cell_5",
+      "width": 100.0,
+      "height": 40.0,
+      "rotation_allowed": false,
+      "weight": 0.84
+    },
+    {
+      "id": "Cell_6",
+      "width": 40.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.43
+    },
+    {
+      "id": "Cell_7",
+      "width": 150.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.17
+    },
+    {
+      "id": "Cell_8",
+      "width": 90.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.14
+    },
+    {
+      "id": "Cell_9",
+      "width": 30.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.38
+    },
+    {
+      "id": "Cell_10",
+      "width": 80.0,
+      "height": 130.0,
+      "rotation_allowed": false,
+      "weight": 1.1
+    },
+    {
+      "id": "Cell_11",
+      "width": 110.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 0.89
+    },
+    {
+      "id": "Cell_12",
+      "width": 140.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 0.85
+    },
+    {
+      "id": "Cell_13",
+      "width": 50.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.89
+    },
+    {
+      "id": "Cell_14",
+      "width": 110.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.34
+    },
+    {
+      "id": "Cell_15",
+      "width": 60.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.32
+    },
+    {
+      "id": "Cell_16",
+      "width": 120.0,
+      "height": 100.0,
+      "rotation_allowed": true,
+      "weight": 1.24
+    },
+    {
+      "id": "Cell_17",
+      "width": 150.0,
+      "height": 100.0,
+      "rotation_allowed": true,
+      "weight": 1.07
+    },
+    {
+      "id": "Cell_18",
+      "width": 130.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.44
+    },
+    {
+      "id": "Cell_19",
+      "width": 110.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.48
+    },
+    {
+      "id": "Cell_20",
+      "width": 100.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 1.46
+    },
+    {
+      "id": "Cell_21",
+      "width": 150.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.35
+    },
+    {
+      "id": "Cell_22",
+      "width": 100.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 1.09
+    },
+    {
+      "id": "Cell_23",
+      "width": 40.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 0.93
+    },
+    {
+      "id": "Cell_24",
+      "width": 40.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 0.9
+    },
+    {
+      "id": "Cell_25",
+      "width": 110.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 0.81
+    },
+    {
+      "id": "Cell_26",
+      "width": 50.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 0.88
+    },
+    {
+      "id": "Cell_27",
+      "width": 140.0,
+      "height": 40.0,
+      "rotation_allowed": false,
+      "weight": 0.99
+    },
+    {
+      "id": "Cell_28",
+      "width": 60.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.32
+    },
+    {
+      "id": "Cell_29",
+      "width": 80.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.38
+    },
+    {
+      "id": "Cell_30",
+      "width": 120.0,
+      "height": 50.0,
+      "rotation_allowed": false,
+      "weight": 0.93
+    },
+    {
+      "id": "Cell_31",
+      "width": 140.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.2
+    },
+    {
+      "id": "Cell_32",
+      "width": 50.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.98
+    },
+    {
+      "id": "Cell_33",
+      "width": 40.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 1.27
+    },
+    {
+      "id": "Cell_34",
+      "width": 140.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.81
+    },
+    {
+      "id": "Cell_35",
+      "width": 60.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 1.25
+    },
+    {
+      "id": "Cell_36",
+      "width": 130.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.47
+    },
+    {
+      "id": "Cell_37",
+      "width": 120.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.39
+    },
+    {
+      "id": "Cell_38",
+      "width": 60.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.31
+    },
+    {
+      "id": "Cell_39",
+      "width": 150.0,
+      "height": 140.0,
+      "rotation_allowed": false,
+      "weight": 0.93
+    },
+    {
+      "id": "Cell_40",
+      "width": 40.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.22
+    },
+    {
+      "id": "Cell_41",
+      "width": 90.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.47
+    },
+    {
+      "id": "Cell_42",
+      "width": 70.0,
+      "height": 100.0,
+      "rotation_allowed": false,
+      "weight": 1.44
+    },
+    {
+      "id": "Cell_43",
+      "width": 90.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.9
+    },
+    {
+      "id": "Cell_44",
+      "width": 20.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 1.0
+    },
+    {
+      "id": "Cell_45",
+      "width": 100.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.14
+    },
+    {
+      "id": "Cell_46",
+      "width": 50.0,
+      "height": 30.0,
+      "rotation_allowed": false,
+      "weight": 1.19
+    },
+    {
+      "id": "Cell_47",
+      "width": 50.0,
+      "height": 90.0,
+      "rotation_allowed": false,
+      "weight": 1.15
+    },
+    {
+      "id": "Cell_48",
+      "width": 100.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.13
+    },
+    {
+      "id": "Cell_49",
+      "width": 60.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.41
+    },
+    {
+      "id": "Cell_50",
+      "width": 130.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.19
+    },
+    {
+      "id": "Cell_51",
+      "width": 30.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 0.87
+    },
+    {
+      "id": "Cell_52",
+      "width": 140.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 0.94
+    },
+    {
+      "id": "Cell_53",
+      "width": 40.0,
+      "height": 140.0,
+      "rotation_allowed": false,
+      "weight": 0.92
+    },
+    {
+      "id": "Cell_54",
+      "width": 80.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.1
+    },
+    {
+      "id": "Cell_55",
+      "width": 140.0,
+      "height": 70.0,
+      "rotation_allowed": true,
+      "weight": 0.99
+    },
+    {
+      "id": "Cell_56",
+      "width": 60.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.14
+    },
+    {
+      "id": "Cell_57",
+      "width": 50.0,
+      "height": 80.0,
+      "rotation_allowed": false,
+      "weight": 1.28
+    },
+    {
+      "id": "Cell_58",
+      "width": 70.0,
+      "height": 70.0,
+      "rotation_allowed": true,
+      "weight": 1.28
+    },
+    {
+      "id": "Cell_59",
+      "width": 30.0,
+      "height": 110.0,
+      "rotation_allowed": false,
+      "weight": 1.28
+    },
+    {
+      "id": "Cell_60",
+      "width": 50.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 0.82
+    },
+    {
+      "id": "Cell_61",
+      "width": 30.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.01
+    },
+    {
+      "id": "Cell_62",
+      "width": 130.0,
+      "height": 20.0,
+      "rotation_allowed": false,
+      "weight": 1.13
+    },
+    {
+      "id": "Cell_63",
+      "width": 150.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.11
+    },
+    {
+      "id": "Cell_64",
+      "width": 90.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.37
+    },
+    {
+      "id": "Cell_65",
+      "width": 120.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 0.93
+    },
+    {
+      "id": "Cell_66",
+      "width": 60.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.28
+    },
+    {
+      "id": "Cell_67",
+      "width": 50.0,
+      "height": 150.0,
+      "rotation_allowed": false,
+      "weight": 0.94
+    },
+    {
+      "id": "Cell_68",
+      "width": 120.0,
+      "height": 30.0,
+      "rotation_allowed": false,
+      "weight": 1.19
+    },
+    {
+      "id": "Cell_69",
+      "width": 150.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.32
+    },
+    {
+      "id": "Cell_70",
+      "width": 50.0,
+      "height": 50.0,
+      "rotation_allowed": false,
+      "weight": 1.31
+    },
+    {
+      "id": "Cell_71",
+      "width": 100.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.22
+    },
+    {
+      "id": "Cell_72",
+      "width": 60.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 0.8
+    },
+    {
+      "id": "Cell_73",
+      "width": 50.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.45
+    },
+    {
+      "id": "Cell_74",
+      "width": 130.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.21
+    },
+    {
+      "id": "Cell_75",
+      "width": 40.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.37
+    },
+    {
+      "id": "Cell_76",
+      "width": 20.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 1.1
+    },
+    {
+      "id": "Cell_77",
+      "width": 60.0,
+      "height": 100.0,
+      "rotation_allowed": false,
+      "weight": 1.17
+    },
+    {
+      "id": "Cell_78",
+      "width": 70.0,
+      "height": 80.0,
+      "rotation_allowed": false,
+      "weight": 1.08
+    },
+    {
+      "id": "Cell_79",
+      "width": 120.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.32
+    },
+    {
+      "id": "Cell_80",
+      "width": 90.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.47
+    },
+    {
+      "id": "Cell_81",
+      "width": 20.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.01
+    },
+    {
+      "id": "Cell_82",
+      "width": 70.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.16
+    },
+    {
+      "id": "Cell_83",
+      "width": 120.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 0.93
+    },
+    {
+      "id": "Cell_84",
+      "width": 80.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.03
+    },
+    {
+      "id": "Cell_85",
+      "width": 150.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 0.86
+    },
+    {
+      "id": "Cell_86",
+      "width": 100.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 1.3
+    },
+    {
+      "id": "Cell_87",
+      "width": 20.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.1
+    },
+    {
+      "id": "Cell_88",
+      "width": 20.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 0.82
+    },
+    {
+      "id": "Cell_89",
+      "width": 90.0,
+      "height": 70.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_90",
+      "width": 70.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 1.25
+    },
+    {
+      "id": "Cell_91",
+      "width": 50.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 0.91
+    },
+    {
+      "id": "Cell_92",
+      "width": 70.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 0.87
+    },
+    {
+      "id": "Cell_93",
+      "width": 120.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 1.36
+    },
+    {
+      "id": "Cell_94",
+      "width": 50.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_95",
+      "width": 40.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 1.48
+    },
+    {
+      "id": "Cell_96",
+      "width": 80.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 0.91
+    },
+    {
+      "id": "Cell_97",
+      "width": 150.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 1.42
+    },
+    {
+      "id": "Cell_98",
+      "width": 100.0,
+      "height": 70.0,
+      "rotation_allowed": false,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_99",
+      "width": 130.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.35
+    },
+    {
+      "id": "Cell_100",
+      "width": 50.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 1.33
+    },
+    {
+      "id": "Cell_101",
+      "width": 80.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.38
+    },
+    {
+      "id": "Cell_102",
+      "width": 100.0,
+      "height": 40.0,
+      "rotation_allowed": false,
+      "weight": 1.18
+    },
+    {
+      "id": "Cell_103",
+      "width": 40.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.06
+    },
+    {
+      "id": "Cell_104",
+      "width": 20.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 0.91
+    },
+    {
+      "id": "Cell_105",
+      "width": 150.0,
+      "height": 120.0,
+      "rotation_allowed": false,
+      "weight": 1.43
+    },
+    {
+      "id": "Cell_106",
+      "width": 130.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.29
+    },
+    {
+      "id": "Cell_107",
+      "width": 40.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 0.86
+    },
+    {
+      "id": "Cell_108",
+      "width": 100.0,
+      "height": 70.0,
+      "rotation_allowed": true,
+      "weight": 0.92
+    },
+    {
+      "id": "Cell_109",
+      "width": 30.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 0.87
+    },
+    {
+      "id": "Cell_110",
+      "width": 130.0,
+      "height": 70.0,
+      "rotation_allowed": true,
+      "weight": 1.2
+    },
+    {
+      "id": "Cell_111",
+      "width": 60.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.38
+    },
+    {
+      "id": "Cell_112",
+      "width": 110.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.25
+    },
+    {
+      "id": "Cell_113",
+      "width": 120.0,
+      "height": 130.0,
+      "rotation_allowed": true,
+      "weight": 1.13
+    },
+    {
+      "id": "Cell_114",
+      "width": 70.0,
+      "height": 120.0,
+      "rotation_allowed": false,
+      "weight": 1.26
+    },
+    {
+      "id": "Cell_115",
+      "width": 110.0,
+      "height": 150.0,
+      "rotation_allowed": false,
+      "weight": 1.08
+    },
+    {
+      "id": "Cell_116",
+      "width": 70.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.0
+    },
+    {
+      "id": "Cell_117",
+      "width": 150.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.31
+    },
+    {
+      "id": "Cell_118",
+      "width": 90.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.29
+    },
+    {
+      "id": "Cell_119",
+      "width": 130.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 0.87
+    },
+    {
+      "id": "Cell_120",
+      "width": 120.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 1.14
+    },
+    {
+      "id": "Cell_121",
+      "width": 150.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 0.82
+    },
+    {
+      "id": "Cell_122",
+      "width": 110.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 1.36
+    },
+    {
+      "id": "Cell_123",
+      "width": 50.0,
+      "height": 100.0,
+      "rotation_allowed": true,
+      "weight": 1.42
+    },
+    {
+      "id": "Cell_124",
+      "width": 110.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_125",
+      "width": 70.0,
+      "height": 140.0,
+      "rotation_allowed": false,
+      "weight": 1.33
+    },
+    {
+      "id": "Cell_126",
+      "width": 110.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.35
+    },
+    {
+      "id": "Cell_127",
+      "width": 20.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.09
+    },
+    {
+      "id": "Cell_128",
+      "width": 50.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.44
+    },
+    {
+      "id": "Cell_129",
+      "width": 90.0,
+      "height": 140.0,
+      "rotation_allowed": true,
+      "weight": 1.0
+    },
+    {
+      "id": "Cell_130",
+      "width": 70.0,
+      "height": 130.0,
+      "rotation_allowed": false,
+      "weight": 0.95
+    },
+    {
+      "id": "Cell_131",
+      "width": 100.0,
+      "height": 90.0,
+      "rotation_allowed": false,
+      "weight": 1.08
+    },
+    {
+      "id": "Cell_132",
+      "width": 120.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.39
+    },
+    {
+      "id": "Cell_133",
+      "width": 90.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 0.97
+    },
+    {
+      "id": "Cell_134",
+      "width": 110.0,
+      "height": 90.0,
+      "rotation_allowed": true,
+      "weight": 1.29
+    },
+    {
+      "id": "Cell_135",
+      "width": 100.0,
+      "height": 110.0,
+      "rotation_allowed": true,
+      "weight": 0.97
+    },
+    {
+      "id": "Cell_136",
+      "width": 50.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.33
+    },
+    {
+      "id": "Cell_137",
+      "width": 90.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.28
+    },
+    {
+      "id": "Cell_138",
+      "width": 140.0,
+      "height": 20.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_139",
+      "width": 50.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 1.5
+    },
+    {
+      "id": "Cell_140",
+      "width": 70.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.08
+    },
+    {
+      "id": "Cell_141",
+      "width": 120.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_142",
+      "width": 130.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 0.86
+    },
+    {
+      "id": "Cell_143",
+      "width": 140.0,
+      "height": 40.0,
+      "rotation_allowed": true,
+      "weight": 1.15
+    },
+    {
+      "id": "Cell_144",
+      "width": 80.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.41
+    },
+    {
+      "id": "Cell_145",
+      "width": 20.0,
+      "height": 120.0,
+      "rotation_allowed": false,
+      "weight": 1.08
+    },
+    {
+      "id": "Cell_146",
+      "width": 90.0,
+      "height": 40.0,
+      "rotation_allowed": false,
+      "weight": 1.27
+    },
+    {
+      "id": "Cell_147",
+      "width": 50.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 1.49
+    },
+    {
+      "id": "Cell_148",
+      "width": 50.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 0.84
+    },
+    {
+      "id": "Cell_149",
+      "width": 130.0,
+      "height": 60.0,
+      "rotation_allowed": false,
+      "weight": 1.02
+    }
+  ],
+  "nets": [
+    {
+      "net_id": "Net_0",
+      "block_ids": [
+        "Cell_6",
+        "Cell_54"
+      ]
+    },
+    {
+      "net_id": "Net_1",
+      "block_ids": [
+        "Cell_43",
+        "Cell_58",
+        "Cell_108"
+      ]
+    },
+    {
+      "net_id": "Net_2",
+      "block_ids": [
+        "Cell_30",
+        "Cell_10",
+        "Cell_62",
+        "Cell_18",
+        "Cell_147"
+      ]
+    },
+    {
+      "net_id": "Net_3",
+      "block_ids": [
+        "Cell_82",
+        "Cell_34"
+      ]
+    },
+    {
+      "net_id": "Net_4",
+      "block_ids": [
+        "Cell_114",
+        "Cell_66"
+      ]
+    },
+    {
+      "net_id": "Net_5",
+      "block_ids": [
+        "Cell_88",
+        "Cell_67"
+      ]
+    },
+    {
+      "net_id": "Net_6",
+      "block_ids": [
+        "Cell_81",
+        "Cell_98"
+      ]
+    },
+    {
+      "net_id": "Net_7",
+      "block_ids": [
+        "Cell_102",
+        "Cell_85"
+      ]
+    },
+    {
+      "net_id": "Net_8",
+      "block_ids": [
+        "Cell_111",
+        "Cell_7",
+        "Cell_133"
+      ]
+    },
+    {
+      "net_id": "Net_9",
+      "block_ids": [
+        "Cell_115",
+        "Cell_148",
+        "Cell_107"
+      ]
+    },
+    {
+      "net_id": "Net_10",
+      "block_ids": [
+        "Cell_51",
+        "Cell_31",
+        "Cell_62",
+        "Cell_78",
+        "Cell_101"
+      ]
+    },
+    {
+      "net_id": "Net_11",
+      "block_ids": [
+        "Cell_125",
+        "Cell_110"
+      ]
+    },
+    {
+      "net_id": "Net_12",
+      "block_ids": [
+        "Cell_56",
+        "Cell_51",
+        "Cell_145"
+      ]
+    },
+    {
+      "net_id": "Net_13",
+      "block_ids": [
+        "Cell_116",
+        "Cell_112"
+      ]
+    },
+    {
+      "net_id": "Net_14",
+      "block_ids": [
+        "Cell_104",
+        "Cell_54",
+        "Cell_110"
+      ]
+    },
+    {
+      "net_id": "Net_15",
+      "block_ids": [
+        "Cell_113",
+        "Cell_56"
+      ]
+    },
+    {
+      "net_id": "Net_16",
+      "block_ids": [
+        "Cell_131",
+        "Cell_16"
+      ]
+    },
+    {
+      "net_id": "Net_17",
+      "block_ids": [
+        "Cell_138",
+        "Cell_134"
+      ]
+    },
+    {
+      "net_id": "Net_18",
+      "block_ids": [
+        "Cell_64",
+        "Cell_4"
+      ]
+    },
+    {
+      "net_id": "Net_19",
+      "block_ids": [
+        "Cell_96",
+        "Cell_41"
+      ]
+    },
+    {
+      "net_id": "Net_20",
+      "block_ids": [
+        "Cell_138",
+        "Cell_71"
+      ]
+    },
+    {
+      "net_id": "Net_21",
+      "block_ids": [
+        "Cell_21",
+        "Cell_81",
+        "Cell_76",
+        "Cell_73",
+        "Cell_59"
+      ]
+    },
+    {
+      "net_id": "Net_22",
+      "block_ids": [
+        "Cell_91",
+        "Cell_83",
+        "Cell_143"
+      ]
+    },
+    {
+      "net_id": "Net_23",
+      "block_ids": [
+        "Cell_117",
+        "Cell_146",
+        "Cell_96"
+      ]
+    },
+    {
+      "net_id": "Net_24",
+      "block_ids": [
+        "Cell_92",
+        "Cell_1"
+      ]
+    },
+    {
+      "net_id": "Net_25",
+      "block_ids": [
+        "Cell_29",
+        "Cell_146",
+        "Cell_111",
+        "Cell_57"
+      ]
+    },
+    {
+      "net_id": "Net_26",
+      "block_ids": [
+        "Cell_130",
+        "Cell_125",
+        "Cell_75",
+        "Cell_41"
+      ]
+    },
+    {
+      "net_id": "Net_27",
+      "block_ids": [
+        "Cell_101",
+        "Cell_97"
+      ]
+    },
+    {
+      "net_id": "Net_28",
+      "block_ids": [
+        "Cell_130",
+        "Cell_127"
+      ]
+    },
+    {
+      "net_id": "Net_29",
+      "block_ids": [
+        "Cell_114",
+        "Cell_24",
+        "Cell_90"
+      ]
+    },
+    {
+      "net_id": "Net_30",
+      "block_ids": [
+        "Cell_99",
+        "Cell_140",
+        "Cell_85"
+      ]
+    },
+    {
+      "net_id": "Net_31",
+      "block_ids": [
+        "Cell_146",
+        "Cell_97"
+      ]
+    },
+    {
+      "net_id": "Net_32",
+      "block_ids": [
+        "Cell_65",
+        "Cell_87",
+        "Cell_49"
+      ]
+    },
+    {
+      "net_id": "Net_33",
+      "block_ids": [
+        "Cell_48",
+        "Cell_12",
+        "Cell_50"
+      ]
+    },
+    {
+      "net_id": "Net_34",
+      "block_ids": [
+        "Cell_88",
+        "Cell_77"
+      ]
+    },
+    {
+      "net_id": "Net_35",
+      "block_ids": [
+        "Cell_118",
+        "Cell_32"
+      ]
+    },
+    {
+      "net_id": "Net_36",
+      "block_ids": [
+        "Cell_140",
+        "Cell_148",
+        "Cell_111",
+        "Cell_35"
+      ]
+    },
+    {
+      "net_id": "Net_37",
+      "block_ids": [
+        "Cell_56",
+        "Cell_99",
+        "Cell_45",
+        "Cell_2",
+        "Cell_67"
+      ]
+    },
+    {
+      "net_id": "Net_38",
+      "block_ids": [
+        "Cell_21",
+        "Cell_91",
+        "Cell_88",
+        "Cell_12"
+      ]
+    },
+    {
+      "net_id": "Net_39",
+      "block_ids": [
+        "Cell_88",
+        "Cell_99"
+      ]
+    },
+    {
+      "net_id": "Net_40",
+      "block_ids": [
+        "Cell_2",
+        "Cell_144"
+      ]
+    },
+    {
+      "net_id": "Net_41",
+      "block_ids": [
+        "Cell_148",
+        "Cell_28"
+      ]
+    },
+    {
+      "net_id": "Net_42",
+      "block_ids": [
+        "Cell_0",
+        "Cell_76",
+        "Cell_74",
+        "Cell_44"
+      ]
+    },
+    {
+      "net_id": "Net_43",
+      "block_ids": [
+        "Cell_95",
+        "Cell_47"
+      ]
+    },
+    {
+      "net_id": "Net_44",
+      "block_ids": [
+        "Cell_69",
+        "Cell_58",
+        "Cell_141"
+      ]
+    },
+    {
+      "net_id": "Net_45",
+      "block_ids": [
+        "Cell_61",
+        "Cell_113",
+        "Cell_71"
+      ]
+    },
+    {
+      "net_id": "Net_46",
+      "block_ids": [
+        "Cell_5",
+        "Cell_113",
+        "Cell_32",
+        "Cell_2"
+      ]
+    },
+    {
+      "net_id": "Net_47",
+      "block_ids": [
+        "Cell_143",
+        "Cell_88"
+      ]
+    },
+    {
+      "net_id": "Net_48",
+      "block_ids": [
+        "Cell_11",
+        "Cell_62",
+        "Cell_76",
+        "Cell_148",
+        "Cell_7"
+      ]
+    },
+    {
+      "net_id": "Net_49",
+      "block_ids": [
+        "Cell_1",
+        "Cell_40",
+        "Cell_117",
+        "Cell_35",
+        "Cell_6"
+      ]
+    },
+    {
+      "net_id": "Net_50",
+      "block_ids": [
+        "Cell_126",
+        "Cell_40",
+        "Cell_99",
+        "Cell_101",
+        "Cell_3"
+      ]
+    },
+    {
+      "net_id": "Net_51",
+      "block_ids": [
+        "Cell_144",
+        "Cell_37"
+      ]
+    },
+    {
+      "net_id": "Net_52",
+      "block_ids": [
+        "Cell_128",
+        "Cell_121",
+        "Cell_54",
+        "Cell_134",
+        "Cell_144"
+      ]
+    },
+    {
+      "net_id": "Net_53",
+      "block_ids": [
+        "Cell_18",
+        "Cell_91",
+        "Cell_148"
+      ]
+    },
+    {
+      "net_id": "Net_54",
+      "block_ids": [
+        "Cell_54",
+        "Cell_2",
+        "Cell_79"
+      ]
+    },
+    {
+      "net_id": "Net_55",
+      "block_ids": [
+        "Cell_77",
+        "Cell_144"
+      ]
+    },
+    {
+      "net_id": "Net_56",
+      "block_ids": [
+        "Cell_146",
+        "Cell_34"
+      ]
+    },
+    {
+      "net_id": "Net_57",
+      "block_ids": [
+        "Cell_65",
+        "Cell_40",
+        "Cell_138",
+        "Cell_50"
+      ]
+    },
+    {
+      "net_id": "Net_58",
+      "block_ids": [
+        "Cell_69",
+        "Cell_144"
+      ]
+    },
+    {
+      "net_id": "Net_59",
+      "block_ids": [
+        "Cell_100",
+        "Cell_94"
+      ]
+    },
+    {
+      "net_id": "Net_60",
+      "block_ids": [
+        "Cell_57",
+        "Cell_72",
+        "Cell_96"
+      ]
+    },
+    {
+      "net_id": "Net_61",
+      "block_ids": [
+        "Cell_39",
+        "Cell_143"
+      ]
+    },
+    {
+      "net_id": "Net_62",
+      "block_ids": [
+        "Cell_131",
+        "Cell_120",
+        "Cell_111"
+      ]
+    },
+    {
+      "net_id": "Net_63",
+      "block_ids": [
+        "Cell_85",
+        "Cell_143"
+      ]
+    },
+    {
+      "net_id": "Net_64",
+      "block_ids": [
+        "Cell_19",
+        "Cell_135",
+        "Cell_9"
+      ]
+    },
+    {
+      "net_id": "Net_65",
+      "block_ids": [
+        "Cell_120",
+        "Cell_14",
+        "Cell_67"
+      ]
+    },
+    {
+      "net_id": "Net_66",
+      "block_ids": [
+        "Cell_15",
+        "Cell_96",
+        "Cell_79"
+      ]
+    },
+    {
+      "net_id": "Net_67",
+      "block_ids": [
+        "Cell_78",
+        "Cell_145"
+      ]
+    },
+    {
+      "net_id": "Net_68",
+      "block_ids": [
+        "Cell_10",
+        "Cell_18",
+        "Cell_122",
+        "Cell_42"
+      ]
+    },
+    {
+      "net_id": "Net_69",
+      "block_ids": [
+        "Cell_10",
+        "Cell_100",
+        "Cell_114",
+        "Cell_59"
+      ]
+    },
+    {
+      "net_id": "Net_70",
+      "block_ids": [
+        "Cell_11",
+        "Cell_21"
+      ]
+    },
+    {
+      "net_id": "Net_71",
+      "block_ids": [
+        "Cell_75",
+        "Cell_16",
+        "Cell_34",
+        "Cell_113",
+        "Cell_14"
+      ]
+    },
+    {
+      "net_id": "Net_72",
+      "block_ids": [
+        "Cell_71",
+        "Cell_113"
+      ]
+    },
+    {
+      "net_id": "Net_73",
+      "block_ids": [
+        "Cell_96",
+        "Cell_101",
+        "Cell_103",
+        "Cell_107",
+        "Cell_15"
+      ]
+    },
+    {
+      "net_id": "Net_74",
+      "block_ids": [
+        "Cell_72",
+        "Cell_140",
+        "Cell_24",
+        "Cell_114"
+      ]
+    },
+    {
+      "net_id": "Net_75",
+      "block_ids": [
+        "Cell_35",
+        "Cell_27",
+        "Cell_146"
+      ]
+    },
+    {
+      "net_id": "Net_76",
+      "block_ids": [
+        "Cell_47",
+        "Cell_58"
+      ]
+    },
+    {
+      "net_id": "Net_77",
+      "block_ids": [
+        "Cell_114",
+        "Cell_148"
+      ]
+    },
+    {
+      "net_id": "Net_78",
+      "block_ids": [
+        "Cell_141",
+        "Cell_10",
+        "Cell_126"
+      ]
+    },
+    {
+      "net_id": "Net_79",
+      "block_ids": [
+        "Cell_114",
+        "Cell_34"
+      ]
+    }
+  ],
+  "ga_params": {
+    "population_size": 100,
+    "generations": 200,
+    "crossover_type": "sequence_pair",
+    "selection_method": "tournament",
+    "tournament_size": 3,
+    "crossover_probability": 0.8,
+    "mutation_probability": 0.15,
+    "elit_count": 2,
+    "fitness_weights": {
+      "hpwl": 0.7,
+      "area": 0.3
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "design": {
+    "chip_width": 500.0,
+    "chip_height": 500.0,
+    "grid_size": 10.0,
+    "rotation_allowed": true
+  },
+  "blocks": [
+    {
+      "id": "Cell_0",
+      "width": 110.0,
+      "height": 150.0,
+      "rotation_allowed": false,
+      "weight": 1.48
+    },
+    {
+      "id": "Cell_1",
+      "width": 70.0,
+      "height": 90.0,
+      "rotation_allowed": false,
+      "weight": 1.15
+    },
+    {
+      "id": "Cell_2",
+      "width": 110.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.14
+    },
+    {
+      "id": "Cell_3",
+      "width": 140.0,
+      "height": 50.0,
+      "rotation_allowed": true,
+      "weight": 1.11
+    },
+    {
+      "id": "Cell_4",
+      "width": 60.0,
+      "height": 50.0,
+      "rotation_allowed": false,
+      "weight": 1.11
+    },
+    {
+      "id": "Cell_5",
+      "width": 100.0,
+      "height": 70.0,
+      "rotation_allowed": false,
+      "weight": 1.35
+    },
+    {
+      "id": "Cell_6",
+      "width": 50.0,
+      "height": 120.0,
+      "rotation_allowed": true,
+      "weight": 1.1
+    },
+    {
+      "id": "Cell_7",
+      "width": 30.0,
+      "height": 80.0,
+      "rotation_allowed": true,
+      "weight": 0.95
+    },
+    {
+      "id": "Cell_8",
+      "width": 120.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.03
+    },
+    {
+      "id": "Cell_9",
+      "width": 150.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 1.07
+    },
+    {
+      "id": "Cell_10",
+      "width": 80.0,
+      "height": 30.0,
+      "rotation_allowed": true,
+      "weight": 1.27
+    },
+    {
+      "id": "Cell_11",
+      "width": 20.0,
+      "height": 150.0,
+      "rotation_allowed": true,
+      "weight": 1.17
+    },
+    {
+      "id": "Cell_12",
+      "width": 70.0,
+      "height": 140.0,
+      "rotation_allowed": false,
+      "weight": 1.29
+    },
+    {
+      "id": "Cell_13",
+      "width": 20.0,
+      "height": 60.0,
+      "rotation_allowed": true,
+      "weight": 0.91
+    },
+    {
+      "id": "Cell_14",
+      "width": 20.0,
+      "height": 80.0,
+      "rotation_allowed": false,
+      "weight": 0.85
+    }
+  ],
+  "nets": [
+    {
+      "net_id": "Net_0",
+      "block_ids": [
+        "Cell_6",
+        "Cell_10"
+      ]
+    },
+    {
+      "net_id": "Net_1",
+      "block_ids": [
+        "Cell_13",
+        "Cell_5",
+        "Cell_10",
+        "Cell_9"
+      ]
+    },
+    {
+      "net_id": "Net_2",
+      "block_ids": [
+        "Cell_2",
+        "Cell_7",
+        "Cell_8"
+      ]
+    },
+    {
+      "net_id": "Net_3",
+      "block_ids": [
+        "Cell_13",
+        "Cell_14"
+      ]
+    },
+    {
+      "net_id": "Net_4",
+      "block_ids": [
+        "Cell_11",
+        "Cell_8"
+      ]
+    },
+    {
+      "net_id": "Net_5",
+      "block_ids": [
+        "Cell_13",
+        "Cell_0",
+        "Cell_1",
+        "Cell_12"
+      ]
+    },
+    {
+      "net_id": "Net_6",
+      "block_ids": [
+        "Cell_9",
+        "Cell_5"
+      ]
+    },
+    {
+      "net_id": "Net_7",
+      "block_ids": [
+        "Cell_11",
+        "Cell_7",
+        "Cell_1"
+      ]
+    }
+  ],
+  "ga_params": {
+    "population_size": 50,
+    "generations": 100,
+    "crossover_type": "sequence_pair",
+    "selection_method": "tournament",
+    "tournament_size": 3,
+    "crossover_probability": 0.8,
+    "mutation_probability": 0.15,
+    "elit_count": 2,
+    "fitness_weights": {
+      "hpwl": 0.7,
+      "area": 0.3
+    }
+  }
+}
